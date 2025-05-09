@@ -202,10 +202,13 @@ html, body{
       justify-self: center;
    }
    .head{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       margin-top: 4vh;
    }
-   .head , .first_para{
-      justify-self: center;
+    .first_para{
       text-align: center; 
    }
    .head span{
@@ -216,9 +219,7 @@ html, body{
       height: 5px;
       width: 120px;
       background-color: rgb(9, 143, 143);
-      justify-self: center;
       margin: 1vh 0vh;
-      transition: width 0.6s ease-in;
    }
    .designation{
       font-size: 19px;
@@ -254,11 +255,11 @@ html, body{
       font-size: 15px;
       font-weight: 500;
    }
-   .second_para{
+   .second_para p{
       text-align: justify;
       width: 90vw;
       justify-self: center;
-      height: 37vh;
+      height: 30vh;
       font-size: 16px;
       padding-top: 3vh;
    }
@@ -275,6 +276,7 @@ html, body{
       font-size: 30px;
    }
    .education .underline{
+   justify-self: center;
     margin-bottom: 3vh;
     width: 150px;
    }

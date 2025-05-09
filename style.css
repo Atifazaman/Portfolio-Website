@@ -209,6 +209,10 @@ html, body{
       margin-top: 4vh;
    }
     .first_para{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       text-align: center; 
    }
    .head span{
@@ -229,8 +233,7 @@ html, body{
       margin: 0;
    }
    .designation_details{
-      justify-self: center;
-      width: 90vw;
+      width: 100vw;
       padding-bottom: 5vh;
    }
    .Personal_container{
@@ -274,17 +277,6 @@ html, body{
       color: white;
       height: 118vh;
       width: 100vw;
-    
-   }
-   .eduHead{
-      padding-top: 9vh;
-      font-size: 30px;
-   }
-   .education .underline{
-      display: flex;
-   justify-self: center;
-    margin-bottom: 3vh;
-    width: 150px;
    }
    .eduMain{
       display: grid;
